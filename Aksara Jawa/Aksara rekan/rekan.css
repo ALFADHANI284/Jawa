@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan body minimum penuh hingga viewport */
+}
+
+header {
+    background-color: #7B3F00; /* Warna latar belakang header */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Warna link di navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #4e3215; /* Warna saat hover */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #7B3F00; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    padding: 10px; /* Padding footer */
+    text-align: center; /* Center text pada footer */
+    font-size: 14px; /* Ukuran font footer */
+    position: relative;
+    bottom: 0; /* Memastikan footer berada di bawah */
+    width: 100%; /* Lebar 100% footer */
+}
+.content {
+    background-color: #7B3F00;
+    color: white;
+    padding: 20px;
+    flex: 1; /* Memastikan konten mengisi ruang di dalam kolom */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pusatkan isi secara vertikal */
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Mengatur 2 kolom */
+    background-color: #7B3F00;
+    color: #7B3F00;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #fffdfb;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.aksara-rekan, .latin {
+    background-color: #F3F3E8;
+    color: #000000;
+    padding: 20px;
+    font-size: 24px;
+    flex: 1; /* Mengisi ruang di dalam div */
+    display: flex;
+    align-items: center; /* Pusatkan isi secara vertikal */
+    justify-content: center; /* Pusatkan isi secara horizontal */
+}
+
+.example {
+    background-color: #7B3F00;
+    color: white;
+    padding: 10px;
+    flex: 1; /* Mengisi ruang di dalam div */
+}
+
+.example-title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.example-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3E8;
+    color: #333;
+    padding: 20px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #7B3F00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0; /* Memastikan footer berada di bawah */
+    width: 100%; /* Lebar 100% footer */
+}

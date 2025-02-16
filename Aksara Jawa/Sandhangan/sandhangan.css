@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #7B3F00; /* Warna latar belakang header */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Warna link di navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #4e3215; /* Warna saat hover */
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #7B3F00; /* Warna latar belakang kartu */
+    color: white; /* Warna teks kartu */
+    cursor: pointer; /* Cursor saat hover */
+    transition: background-color 0.3s; /* Transisi saat hover */
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em; /* Ukuran font untuk kartu */
+}
+
+.card:hover {
+    background-color: #4e3215; /* Warna saat kartu dihover */
+}
+.card-body {
+    display: flex; /* Menggunakan Flexbox */
+    align-items: center; /* Pusatkan secara vertikal */
+    justify-content: center; /* Pusatkan secara horizontal */
+    height: 100%; /* Agar memenuhi tinggi kartu */
+}
+
+footer {
+    background-color: #7B3F00; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    padding: 10px; /* Padding footer */
+    text-align: center; /* Center text pada footer */
+    font-size: 14px; /* Ukuran font footer */
+    position: relative;
+    bottom: 0; /* Memastikan footer berada di bawah */
+    width: 100%; /* Lebar 100% footer */
+}
